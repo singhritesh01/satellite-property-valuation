@@ -29,20 +29,25 @@ IIT_Roorkee_Project/
 │   ├── y_train.csv
 │   ├── y_val.csv
 │   ├── test_processed.csv
-│   ├── image_embeddings.npy
+│   ├── mlp_tabular_shallow.pth
 │   ├── image_ids.csv
 │   ├── tabular_scaler.pkl
 │   └── mlp_tabular_baseline.pth
+│   ├── tabular_scaler_shallow.pkl
+│   └── multimodal_fusion_model.pth
 │
-├── images/
-│   └── *.jpg   # satellite images fetched using lat/long
+│
+├── Satelliteimages/
+│   └── (https://drive.google.com/drive/folders/1YM3P6C1Ai8Vw9GnNHpldONYOKTXwRLBh?usp=sharing)   # satellite images fetched using lat/long
 │
 ├── notebooks/
 │   ├── 01_preprocessing_EDA.ipynb
 │   ├── 02_tabular_mlp_baseline.ipynb
+│   ├── 02a_tabular_mlp_shallow.ipynb
 │   ├── 03_image_embeddings.ipynb
 │   ├── 04_multimodal_fusion.ipynb
-│   ├── 05_gradcam_explainability.ipynb
+│   └── 04b_multimodal_shallow_fusion.ipynb 
+│   └── 05_gradcam_explainability.ipynb 
 │   └── 06_prediction_csv.ipynb
 │
 ├── predictions.csv
