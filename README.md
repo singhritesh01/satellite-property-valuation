@@ -22,37 +22,39 @@ The pipeline includes:
 IIT_Roorkee_Project/
 │
 ├── data/
-│   ├── train.xlsx
-│   ├── test.xlsx
 │   ├── X_train.csv
 │   ├── X_val.csv
 │   ├── y_train.csv
 │   ├── y_val.csv
-│   ├── test_processed.csv
-│   ├── mlp_tabular_shallow.pth
 │   ├── image_ids.csv
+│   ├── train.xlsx
+│   ├── test.xlsx
+│   ├── test_processed.csv
+│   ├── mlp_tabular_baseline.pth
+│   ├── mlp_tabular_shallow.pth
+│   ├── multimodal_fusion_model.pth
 │   ├── tabular_scaler.pkl
-│   └── mlp_tabular_baseline.pth
-│   ├── tabular_scaler_shallow.pkl
-│   └── multimodal_fusion_model.pth
-│
-│
-├── Satelliteimages/
-│   └── (https://drive.google.com/drive/folders/1YM3P6C1Ai8Vw9GnNHpldONYOKTXwRLBh?usp=sharing)   # satellite images fetched using lat/long
+│   └── tabular_scaler_shallow.pkl
 │
 ├── notebooks/
 │   ├── 01_preprocessing_EDA.ipynb
 │   ├── 02_tabular_mlp_baseline.ipynb
 │   ├── 02a_tabular_mlp_shallow.ipynb
 │   ├── 03_image_embeddings.ipynb
-│   ├── 04_multimodal_fusion.ipynb
-│   └── 04b_multimodal_shallow_fusion.ipynb 
-│   └── 05_gradcam_explainability.ipynb 
+│   ├── 04_multimodal_model.ipynb
+│   ├── 04b_multimodal_shallow_fusion.ipynb
+│   ├── 05_explainability_gradcam.ipynb
 │   └── 06_prediction_csv.ipynb
-│
-├── predictions.csv
+|
+├── 23118067_final.csv
+├── 23118067_report.pdf
 ├── README.md
-└── report.pdf
+├── data_fetcher.py
+└── satellite_images/
+   └── https://drive.google.com/drive/folders/1YM3P6C1Ai8Vw9GnNHpldONYOKTXwRLBh
+       
+      
+
 ```
 
 ---
