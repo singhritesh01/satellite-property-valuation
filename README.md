@@ -188,6 +188,6 @@ This project is for academic and educational use.
 
 ---
 
-**Author:** Vikas  
+**Author:** Ritesh
 **Institution:** IIT Roorkee
 
